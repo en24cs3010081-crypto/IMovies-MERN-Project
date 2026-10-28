@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Search, Film, Ticket, Clock3, Star, CalendarDays, X, CheckCircle2, Armchair, Popcorn, Clapperboard } from "lucide-react";
 
-const API = "http://localhost:5000/api";
+const API = "https://imovies-mern-project-jdpu.onrender.com/api";
 const fallbackMovies = [
   { _id:"m1", title:"The Last Horizon", genre:"Adventure", duration:"2h 08m", rating:"8.2", language:"Hindi", price:180, poster:"https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80", description:"A daring expedition sets out to discover what lies beyond the known world." },
   { _id:"m2", title:"City of Dreams", genre:"Drama", duration:"1h 56m", rating:"7.8", language:"Hindi", price:160, poster:"https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=800&q=80", description:"In a city that never sleeps, three lives intersect in unexpected ways." },
